@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <style>
+        table.one,th.one,td.one{border: 2px solid; border-collapse:collapse}
+        table.two{border: 2px solid; border-collapse: collapse; width: 100%;}
+        tr.one:hover{background-color: aqua;}
+        th.two{border: 2px solid; height: 100px; vertical-align: bottom;}
+        td.two {border: 2px solid; text-align: bottom;}
+        tr.two:hover{background-color: blueviolet;}
+        th,td{padding:8px;text-align:left;}
+            th,td{padding:4px;text-align:left;border-bottom:1px solid red;}
+            tr.four:nth-child(even){background-color:blueviolet}
+            tr.four:nth-child(odd){background-color:yellow}
+    </style>
+</head>
+<body>
+    
+<table class = "one">
+<tr>
+<th class = "one">R.no</th>
+<th class = "one">Name</th>
+<th class = "one">Marks</th>
+</tr>
+<tr class="one">
+<td class = "one">1</td>
+<td class = "one">Siva</td>
+<td class = "one">60</td>
+</tr>
+<tr>
+    <td class = "one">2</td>
+    <td class = "one">Sabeer</td>
+    <td class = "one">70</td>
+</tr>
+
+
+
+</table>
+<br><br><br><br>
+<table class="two">
+    <tr>
+        <th class = "two">R.no</th>
+        <th class = "two">Name</th>
+        <th class = "two">Marks</th>
+        </tr>
+        <tr class="two" >
+        <td class = "two">1</td>
+        <td class = "two">Siva</td>
+        <td class = "two">60</td>
+        </tr>
+        <tr class="two">
+            <td class = "two">2</td>
+            <td class = "two">Sabeer</td>
+            <td class = "two">70</td>
+        </tr>
+        </table>
+        <br><br><br><br>
+       <table >
+
+        <tr class="four">
+            <th class = "two">R.no</th>
+            <th class = "two">Name</th>
+            <th class = "two">Marks</th>
+            </tr>
+            <tr class="four" >
+            <td class = "two">1</td>
+            <td class = "two">Siva</td>
+            <td class = "two">60</td>
+            </tr>
+            <tr class="four">
+                <td class = "two">2</td>
+                <td class = "two">Sabeer</td>
+                <td class = "two">70</td>
+            </tr>
+       </table>
+    
+
+</table>
+</body>
+</html>
